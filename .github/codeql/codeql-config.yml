@@ -7,3 +7,6 @@ packs:
   java:
     - scope/java-pack1
     - scope/java-pack2@v1.0.0
+- uses: github/codeql-action/init@v2
+  with:
+    config-file: .github/codeql/codeql-config.yml
